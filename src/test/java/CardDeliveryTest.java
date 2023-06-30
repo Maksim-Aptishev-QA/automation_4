@@ -119,7 +119,7 @@ public class CardDeliveryTest {
         $("[data-test-id=phone] input").setValue("+71234567890");
         $("[data-test-id=agreement]").click();
         $(By.className("button")).click();
-        $(".calendar-input   .input__sub").shouldHave(exactText("Неверно введена дата"));
+        $(".calendar-input .input__sub").shouldHave(exactText("Неверно введена дата"));
     }
 }
 
